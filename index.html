@@ -1,9 +1,11 @@
+<!-- MySQL Connecting -->
 <?
 	$conn = mysqli_connect('lcalhost','root','admin01');
 	mysqli_select_db($conn,'user');
 	$result=mysqli_query($conn,'SELECT*FROM user')
 	echo $result
 ?>
+<!-- //MySQL Connecting -->
 
 <!DOCTYPE HTML>
 <html>
@@ -33,10 +35,10 @@
   		<h5>그냥 로그인하는 홈페이지</h5>
   	</nav>
   	<div class="wrapper">
-      <form action="/php/login.php" method="POST">
+      <form action="/php/login.php" method="get">
         <p>ID <input type="text" name="user_id"></p>
         <p>PW <input type="text" name="user_pw"></p>
-        <input value ="로그인하기"type="submit">
+        <input type="submit" value ="로그인하기">
       </form>
 	  </div>
   </body>
