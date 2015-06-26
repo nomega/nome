@@ -22,7 +22,7 @@
 	</head>
 	<body>
 		<nav>
-  			<h5>로그인에 성공하셨습니다</h5>
+  			<p><h5>로그인에 성공하셨습니다</h5></P>
   		</nav>
   		<div class="wrapper">
 	      	<form action="/php/login.php" method="POST">
