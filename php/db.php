@@ -1,12 +1,13 @@
 <?php
-	$conn = mysqli_connect("localhost","root","admin");
-	$sql_db = "CREATE DATABASE `loginpage`";
+	$conn = mysqli_connect("localhost","root","admin01");
+	var_dump($conn);
+	$sql_db = "CREATE DATABASE `test2`";
 	mysqli_query($conn,$sql_db);
 	mysqli_select_db($conn,'loginpage');
 	$sql_table = "CREATE TABLE `user` (
 		`id` int(11) NOT NULL AUTO_INCREMENT,
 		  `u_id` varchar(30) NOT NULL,
-		  `u_pw` vachar(100) NOT NULL,
+		  `u_pw` varchar(100) NOT NULL,
 		  `u_name` varchar(30) NOT NULL,
 		  `u_mail` varchar(100) NOT NULL,
 		  PRIMARY KEY (id)
