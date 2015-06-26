@@ -2,7 +2,9 @@
 
 	$conn = mysqli_connect("localhost","root","admin01");
 	mysqli_select_db($conn,"loginpage");
-
+	if($conn == "FALSE") {
+		$conn = mysql_connect("localhost:3300","root","admin01");
+	}
 	$sql_idsearch = "SELECT * FROM user WHERE u_id='".$_POST['user_id']."'";
 	$idsearch_result = mysqli_query($conn,$sql_idsearch);
 	if($idsearch_result->num_rows == "1") {
