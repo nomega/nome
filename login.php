@@ -8,5 +8,4 @@
 	echo "Hello, World"
 	echo $_GET['user_id'];
 	echo $_GET['user_pw'];
-
 ?>
