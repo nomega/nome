@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 	
 	$conn = mysqli_connect("localhost","root","admin01");
 	mysqli_select_db($conn,"loginpage");
@@ -12,4 +13,16 @@
 	} else {
 		header('location: /success.phph')
 	}
+=======
+	/*
+	$conn = mysqli_connect('lcalhost','root','admin01');
+	mysqli_select_db($conn,'user');
+	$result=mysqli_query($conn,'SELECT*FROM user');
+	$sql_insert_id = "INSERT INTO user(u_id,u_pw) VALUSE(".$_POST['user_id'].",".$_POST['user_pw'].");
+	*/
+	echo "Hello, World";
+	echo $_GET['user_id'];
+	echo $_GET['user_pw'];
+
+>>>>>>> e9f14b409f06c3709b5921b5afd25f884af4e400
 ?>

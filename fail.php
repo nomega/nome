@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-      <title>로그인 성공</title>
+      <title>로그인 실패</title>
 
       <!-- Customizing CSS/js -->
       <script type="text/javascript" ></script>

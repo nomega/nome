@@ -5,10 +5,12 @@
 
       <!-- Customizing CSS/js -->
       <script type="text/javascript" src="js/custom/closebrowser.js" ></script>
+      <script type="text/javascript" src="js/custom/pw_alert.js" ></script>
+
       <link rel="stylesheet" type="text/css" href="">
 
       <script type="text/javascript">
-        window.onload = closebrowser;
+        window.onload = pw_alert;
       </script>
       <!-- //Customizing CSS/js -->
 

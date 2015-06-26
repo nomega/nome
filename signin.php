@@ -10,7 +10,7 @@
 <!DOCTYPE HTML>
 <html>
 	 <head>
-    <title>밥 얻어먹는 페이지</title>
+    <title>회원가입 성공</title>
 
     <!-- Customizing CSS/js -->
     <script type="text/javascript" ></script>
@@ -32,10 +32,10 @@
 
   <body>
   	<nav>
-  		<h5>그냥 로그인하는 홈페이지</h5>
+  		<h5>회원가입이 완료되었습니다</h5>
   	</nav>
   	<div class="wrapper">
-      <form action="/php/login.php" method="post">
+      <form action="/php/login.php" method="get">
         <p>ID <input type="text" name="user_id"></p>
         <p>PW <input type="text" name="user_pw"></p>
         <input type="submit" value ="로그인하기">
