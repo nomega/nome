@@ -1,15 +1,9 @@
 <?php
-
-	$idhost = "localhost";
-	$myroot = "root";
-	$mypw = "admin01";
-	$mydb = "loginpage";
-
-
-	$conn = mysqli_connect($idhost,$myroot,$mypw,$mydb);
-
+	$conn = mysqli_connect("localhost","root","1234");
 	var_dump($conn);
-
+	$sql_db = "CREATE DATABASE `loginpage`";
+	mysqli_query($conn,$sql_db);
+	mysqli_select_db($conn,'loginpage');
 	$sql_table = "CREATE TABLE `user` (
 		`id` int(11) NOT NULL AUTO_INCREMENT,
 		  `u_id` varchar(30) NOT NULL,

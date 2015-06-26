@@ -1,6 +1,6 @@
 <?php
 
-	$conn = mysqli_connect("localhost","root","admin01");
+	$conn = mysqli_connect("localhost:3300","root","admin01");
 	mysqli_select_db($conn,"loginpage");
 
 	$sql_idsearch = "SELECT * FROM user WHERE u_id='".$_POST['user_id']."'";
