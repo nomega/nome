@@ -3,10 +3,10 @@
 	$conn = mysqli_connect("localhost","root","admin01");
 	mysqli_select_db($conn,"loginpage");
 	if($conn == "FALSE") {
-		$conn = mysql_connect("localhost:3300","root","admin01");
+		$conn = mysqli_connect("localhost:3300","root","admin01");
 	}
 	$sql_idsearch = "SELECT * FROM user WHERE u_id='".$_POST['user_id']."'";
-	$idsearch_result = mysqli_query($conn,$sql_idsearch);
+	$idsearch_result = mysql_query($conn,$sql_idsearch);
 	if($idsearch_result->num_rows == "1") {
 
 		$sql_search = "SELECT * FROM user WHERE u_id='".$_POST['user_id']."' AND u_pw='".$_POST['user_pw']."'";
@@ -20,7 +20,7 @@
 	} else {
 		$sql_insert = "INSERT INTO user(u_id,u_pw,u_name,u_mail) VALUES('".$_POST['user_id']."','".$_POST['user_pw']."','any','user@mail.com')";
 		$insert_result = mysqli_query($conn,$sql_insert);
-		header('location: /signin.php');
+		// header('location: /signin.php');
 	}
 
 ?>

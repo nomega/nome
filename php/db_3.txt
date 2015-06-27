@@ -1,0 +1,8 @@
+<h2>'user'에 데이터 입력하기</h2>
+<form action="/php/db_insert.php" method="POST">
+	아이디: <input type="text" name="mdb_id">
+	패스워드: <input type="text" name="mdb_pw">
+	이름: <input type="text" name="mdb_nm">
+	이메일: <input type="text" name="mdb_mail">
+	<input type="submit" value="입력하기">
+</form>

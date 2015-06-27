@@ -1,0 +1,5 @@
+<h2>DB 생성하기</h2>
+<form action="/php/db_makedb.php" method="POST">
+	생성할 DB 이름: <input type="text" name="mdb_name">
+	<input type="submit" value="생성하기">
+</form>

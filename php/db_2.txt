@@ -1,0 +1,7 @@
+<h2>TABLE 생성하기</h2>
+<form action="/php/db_maketb.php" method="POST">
+	선택할 DB 이름: <input type="text" name="mdb_name"> <br>
+	생성할 TABLE 이름:<input type="text" name="mdb_tbl"> <br>
+	구성(sql형식) <textarea name="sql"></textarea><br>
+	<input type="submit" value="생성하기">
+</form>
