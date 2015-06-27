@@ -6,7 +6,7 @@
 		$conn = mysqli_connect("localhost:3300","root","admin01");
 	}
 	$sql_idsearch = "SELECT * FROM user WHERE u_id='".$_POST['user_id']."'";
-	$idsearch_result = mysql_query($conn,$sql_idsearch);
+	$idsearch_result = mysqli_query($conn,$sql_idsearch);
 	if($idsearch_result->num_rows == "1") {
 
 		$sql_search = "SELECT * FROM user WHERE u_id='".$_POST['user_id']."' AND u_pw='".$_POST['user_pw']."'";

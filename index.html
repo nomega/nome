@@ -14,7 +14,7 @@
 
     <!-- Customizing CSS/js -->
     <script type="text/javascript" ></script>
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <!-- //Customizing CSS/js -->
 
     <!-- Common meta tag -->
@@ -34,12 +34,16 @@
   	<nav>
   		<h5>그냥 로그인하는 홈페이지</h5>
   	</nav>
-  	<div class="wrapper">
-      <form action="/php/login.php" method="post">
-        <p>ID <input type="text" name="user_id"></p>
-        <p>PW <input type="text" name="user_pw"></p>
-        <input type="submit" value ="로그인하기">
-      </form>
+  	<div class="container row" id="login">
+          <div calss="col-md-4"></div>
+          <div calss="col-md-4">
+            <form action="/php/login.php" method="post">
+            <div>ID</div><div><input type="text" name="user_id"></div>
+            <div>PW</div><div><input type="text" name="user_pw"></div>
+            <input type="submit" value ="로그인하기">
+            </form>
+          </div>
+          <div class="col-md-4"></div>     
 	  </div>
   </body>
 </html>
