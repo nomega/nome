@@ -35,7 +35,7 @@
   		<h5>회원가입이 완료되었습니다</h5>
   	</nav>
   	<div class="wrapper">
-      <form action="/php/login.php" method="get">
+      <form action="/php/login.php" method="POST">
         <p>ID <input type="text" name="user_id"></p>
         <p>PW <input type="text" name="user_pw"></p>
         <input type="submit" value ="로그인하기">
