@@ -15,7 +15,7 @@
 			"file": "php/login.php",
 			"settings":
 			{
-				"buffer_size": 886,
+				"buffer_size": 884,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,7 +23,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1421,
+				"buffer_size": 1508,
 				"line_ending": "Windows"
 			}
 		},
@@ -235,7 +235,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -243,15 +243,15 @@
 					"file": "php/login.php",
 					"settings":
 					{
-						"buffer_size": 886,
+						"buffer_size": 884,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								411,
-								411
+								137,
+								137
 							]
 						],
 						"settings":
@@ -270,15 +270,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1421,
+						"buffer_size": 1508,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								253,
-								253
+								1262,
+								1262
 							]
 						],
 						"settings":
@@ -288,7 +288,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 807.0,
+						"translation.y": 560.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
