@@ -1,7 +1,7 @@
 <?php
 
 	$conn = mysqli_connect("localhost","root","admin01");
-	if($conn == "FALSE") {
+	if(!$conn) {
 		$conn = mysqli_connect("localhost","root","admin01","3300");
 	}
 	mysqli_select_db($conn,"loginpage");
