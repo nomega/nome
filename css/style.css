@@ -1,3 +1,35 @@
+body {
+	padding-top: 70px;
+}
+
+#nav_btn {
+	padding: 0px;
+	padding-left: 5px;
+	margin: 0px;
+}
+
 #login {
 	border: 1px solid;
+	padding: 5px;
+}
+
+#navbar{
+	background-color: "red";
+}
+
+#content{
+	text-shadow : 1px 1px 1px #EEEEEE;
+}
+
+#left{
+	float: right;
+	margin-top: 5px;
+}
+
+#sign_form{
+	margin-top: 50px;
+}
+
+#name{
+	font-style: strong;
 }
