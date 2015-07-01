@@ -10,12 +10,13 @@
 <!DOCTYPE HTML>
 <html>
 	 <head>
-    <title>밥 얻어먹는 페이지</title>
+    <title>회원가입 성공</title>
 
     <!-- Customizing CSS/js -->
     <script type="text/javascript" ></script>
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
-     <link rel="stylesheet" type="text/css" href="/css/html5-doctor-reset-stylesheet.min.css">
+    <link rel="stylesheet" type="text/css" href="css/html5-doctor-reset-stylesheet.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
     <!-- //Customizing CSS/js -->
          
 
@@ -24,14 +25,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- //Common meta tag -->
   </head>
-    
+
   <body>
     <div class ="wrapper">
     	<div class ="subject">
-    		<h1>그냥 로그인하는 홈페이지</h1>
+    		<h2>회원가입이 완료되었습니다</h2>
     	</div>
         <div class="box-login">
-        <form action="/php/login.php" method="post">
+        <form action="php/login.php" method="post">
             <div class="box-input">
                 <div class="box-idpw">
                     <label>로그인</label>

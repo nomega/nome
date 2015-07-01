@@ -12,14 +12,14 @@
 		$search_result = mysqli_query($conn,$sql_search);
 		
 		if($search_result->num_rows == "0") {
-			header('location: /passwordfail.php');
+			header('location: ../passwordfail.php');
 		} else {
-			header('location: /success.php');
+			header('location: ../success.php');
 		}
 	} else {
 		$sql_insert = "INSERT INTO user(u_id,u_pw,u_name,u_mail) VALUES('".$_POST['user_id']."','".$_POST['user_pw']."','any','user@mail.com')";
 		$insert_result = mysqli_query($conn,$sql_insert);
-		header('location: /signin.php');
+		header('location: ../signin.php');
 	}
 
 ?>

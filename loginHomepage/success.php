@@ -1,38 +1,27 @@
-<!-- MySQL Connecting -->
-<?
-	$conn = mysqli_connect('lcalhost','root','admin01');
-	mysqli_select_db($conn,'user');
-	$result=mysqli_query($conn,'SELECT*FROM user')
-	echo $result
-?>
-<!-- //MySQL Connecting -->
-
-<!DOCTYPE HTML>
-<html>
-	 <head>
-    <title>회원가입 성공</title>
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+	    <title>로그인 성공</title>
 
     <!-- Customizing CSS/js -->
     <script type="text/javascript" ></script>
-    <link rel="stylesheet" type="text/css" href="/css/html5-doctor-reset-stylesheet.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
-
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+     <link rel="stylesheet" type="text/css" href="css/html5-doctor-reset-stylesheet.min.css">
     <!-- //Customizing CSS/js -->
-         
-
+        
     <!-- Common meta tag -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- //Common meta tag -->
-  </head>
-
-  <body>
+        
+	</head>
+    <body>
     <div class ="wrapper">
     	<div class ="subject">
-    		<h2>회원가입이 완료되었습니다</h2>
+    		<h1>로그인에 성공하셨습니다</h1>
     	</div>
         <div class="box-login">
-        <form action="/php/login.php" method="post">
+        <form action="php/login.php" method="post">
             <div class="box-input">
                 <div class="box-idpw">
                     <label>로그인</label>

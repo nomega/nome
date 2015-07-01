@@ -7,8 +7,8 @@
       <script type="text/javascript" src="js/custom/closebrowser.js" ></script>
       <script type="text/javascript" src="js/custom/pw_alert.js" ></script>
 
-      <link rel="stylesheet" type="text/css" href="/css/html5-doctor-reset-stylesheet.min.css">
-      <link rel="stylesheet" type="text/css" href="/css/index.css">
+      <link rel="stylesheet" type="text/css" href="css/html5-doctor-reset-stylesheet.min.css">
+      <link rel="stylesheet" type="text/css" href="css/index.css">
       <script type="text/javascript">
         window.onload = pw_alert;
       </script>
