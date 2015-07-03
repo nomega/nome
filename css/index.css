@@ -1,0 +1,78 @@
+@font-face
+{ 
+    font-family: 'Rix';
+    src: url('/fonts/RixHeadEB.eot?') format('eot'), url('/fonts/RixGoEB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper{
+    margin: 0 auto;
+    margin-top:90px;
+    width: 1026px;
+}
+
+.subject h1{
+    font-family: Rix;
+    font-size: 98.3px;       color: #4d6d5a;
+}
+
+.subject h2{
+    font-family: Rix;
+    font-size: 92.7px;       
+    color: #4d6d5a;
+}
+
+.box-login{
+    background-color: #46e786;
+    border-radius: 7px;
+    margin : 0 auto;
+    width: 537px;
+    margin-top: 23px;
+    height: 313px;
+
+}
+
+.box-login .box-input{
+    padding-top: 60px;
+    padding-left: 35px;
+    padding-right: 28px;
+    height: 144px;
+    
+}
+
+.box-login .box-input label{
+    font: 400 30px Rix;
+    color: #4d6d5a;
+    float: left;
+    height: 40px;
+    padding-top: 4px;
+}
+.box-login .box-input input{
+    width: 320px;
+    height: 40px;
+    float: right;
+
+}
+
+#pw-input-box{
+    margin-top: 23px;
+}
+
+#pw-label{
+    margin-top: 23px;
+}
+
+
+.btn-login{
+    height: 70px;
+    width: 473px;
+    margin-left: 34px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.75);
+    border-radius: 6px;
+    font-family: Rix;
+    font-size: 30px;
+    color: #4d6d5a;
+    font-weight: 400;
+}

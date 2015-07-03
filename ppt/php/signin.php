@@ -35,9 +35,7 @@
 				/* 로그인 성공 시 세션에 저장 */
 				$_SESSION['be_login'] = true;
 				$_SESSION['name'] = $row['name'];
-				echo $_SESSION['be_login'];
-				echo $_SESSION['name'];
-				echo "<script> alert('로그인에 성공하셨습니다.'); </script>";
+				$_SESSION['ID'] = $row['id'];
 				echo "<script> location.href='/ppt/index.php'; </script>";
 		} else {
 					echo "<script> alert('패스워드가 틀렸습니다.'); </script>";

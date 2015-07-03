@@ -23,20 +23,8 @@
 <body>
 
 <?php
-    /* Mysql 서버 접속 */
-    $conn = mysqli_connect("localhost","root","admin01");
-    if(!$conn) {
-        $conn = mysqli_connect("localhost","root","admin01","3300");
-    }
-    /* DB 선택 */
-    mysqli_select_db($conn,"ppt");
-    $sql_getname = "SELECT * FROM member WHERE";
-    $rst_getname = mysqli_query($conn, $sql_getname);
-    $row = mysqli_fetch_assoc($rst_getname);
-
-    echo "<p>SQL문</p>".$sql_getname;
-    echo "<p>치환한 결과값</p>".$row;
-    echo "<p>진정한 결과값$</p>".$row["name"];
+    session_start();
+    echo $_SESSION['ID'];
 ?>
 
 </body>

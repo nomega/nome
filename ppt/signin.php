@@ -29,45 +29,9 @@
 
   <body>
     <div class="container">
+      <!-- 네비게이션 바 불러오기-->
+      <?php include 'navbar.php'; ?> 
 
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/ppt/index.php">최원영의 파워포인트</a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">홈으로<span class="sr-only">(current)</span></a></li>
-              <li><a href="/ppt/intro.php">소개</a></li>
-              <li><a href="/ppt/lec.php">강좌</a></li>
-            </ul>
-            <?php
-              if(!empty($_SESSION['be_login'])){
-                if($_SESSION['be_login']){
-                echo" <ul class='nav navbar-nav navbar-right'>
-                  <li><a href = #><mark>".$_SESSION['name']."</mark>님</a></li>
-                  <li><a href='/ppt/php/logout.php'>로그아웃</a></li>
-                  </ul>";
-                }
-              } else {
-              echo "<ul class='nav navbar-nav navbar-right'>
-                  <li><a id='nav_btn' href='/ppt/signin.php'><button type='button' class='btn btn-default navbar-btn'>로그인</button></a></li>
-                  <li><a id='nav_btn' href='/ppt/signup.php'><button type='button' class='btn btn-default navbar-btn btn btn-primary'>회원가입</button></a></li>
-                </ul>";
-              }
-          ?>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
       <div class="container">
           <div class="bs-docs-header" id="content" tabindex="-1">
             <h1>로그인하기</h1>
@@ -78,7 +42,7 @@
             <div class="panel-body">
               <form class="form-horizontal" action="/ppt/php/signin.php" method="POST">
                 <div class="form-group">
-                  <label class="col-md-3 control-label"for="InputEmail">이메일 주소</label>
+                  <label class="col-md-3 control-label" for="InputEmail">이메일 주소</label>
                   <input class="col-md-9" type="email" class="form-control" id="InputEmail" placeholder="이메일을 입력하세요" name="mail">
                 </div>
                 <div class="form-group">
@@ -87,9 +51,9 @@
                 </div>
                   <button type="submit" class="btn btn-default" id="left">로그인 하기</button>
               </form>
-             </div>
+            </div>
           </div>
-       </div>
-   </div>
+        </div>
+    </div>
   </body>
 </html>

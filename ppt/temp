@@ -1,0 +1,4 @@
+<ul class='nav navbar-nav navbar-right'>
+<li><a href = #><mark>".$_SESSION['name']."</mark>님</a></li>
+<li><a href='/ppt/php/logout.php'>로그아웃</a></li>
+</ul>
