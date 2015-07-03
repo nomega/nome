@@ -12,18 +12,24 @@
 	"buffers":
 	[
 		{
+			"contents": "",
 			"file": "index.html",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 1504,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "",
 			"file": "passwordfail.php",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 848,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +37,7 @@
 			"file": "signin.php",
 			"settings":
 			{
-				"buffer_size": 1498,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,16 +45,38 @@
 			"file": "success.php",
 			"settings":
 			{
-				"buffer_size": 1303,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "",
 			"file": "php/login.php",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 890,
+				"buffer_size": 0,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!-- MySQL Connecting -->\n<?\n	$conn = mysqli_connect('lcalhost','root','admin01');\n	mysqli_select_db($conn,'user');\n	$result=mysqli_query($conn,'SELECT*FROM user')\n	echo $result\n?>\n<!-- //MySQL Connecting -->\n\n<!DOCTYPE HTML>\n<html>\n	 <head>\n    <title>밥 얻어먹는 페이지</title>\n\n    <!-- Customizing CSS/js -->\n    <script type=\"text/javascript\" ></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/html5-doctor-reset-stylesheet.min.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\">\n    <!-- //Customizing CSS/js -->\n         \n\n    <!-- Common meta tag -->\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <!-- //Common meta tag -->\n  </head>\n    \n  <body>\n    <div class =\"wrapper\">\n    	<div class =\"subject\">\n    		<h1>그냥 로그인하는 홈페이지</h1>\n    	</div>\n        <div class=\"box-login\">\n        <form action=\"php/login.php\" method=\"post\">\n            <div class=\"box-input\">\n                <div class=\"box-idpw\">\n                    <label>로그인</label>\n                    <input type=\"text\" class=\"input-box\" name=\"user_id\" placeholder=\"아이디\">\n                </div>\n                <div class=\"box-idpw\">\n                    <label id=\"pw-label\">비밀번호</label>\n                    <input type=\"password\" id=\"pw-input-box\" class=\"input-box\" name=\"user_pw\" placeholder=\"암호\">\n                </div>\n            </div>\n            <input type=\"submit\" class=\"btn-login\" value =\"로그인하기\">\n        </form>\n        </div>\n    </div>\n  </body>\n</html>",
+			"file": "loginHomepage/index.html",
+			"file_size": 1625,
+			"file_write_time": 130802109081132135,
+			"settings":
+			{
+				"buffer_size": 1504,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 291,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -186,6 +214,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
+			"link",
+			"head",
 			"}\n",
 			"rel",
 			"link",
@@ -208,7 +239,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -216,15 +247,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1504,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								875,
-								875
+								0,
+								0
 							]
 						],
 						"settings":
@@ -234,7 +265,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -244,15 +275,15 @@
 					"file": "passwordfail.php",
 					"settings":
 					{
-						"buffer_size": 848,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								391,
-								391
+								0,
+								0
 							]
 						],
 						"settings":
@@ -272,15 +303,15 @@
 					"file": "signin.php",
 					"settings":
 					{
-						"buffer_size": 1498,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								299,
-								299
+								0,
+								0
 							]
 						],
 						"settings":
@@ -300,15 +331,15 @@
 					"file": "success.php",
 					"settings":
 					{
-						"buffer_size": 1303,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								490,
-								490
+								0,
+								0
 							]
 						],
 						"settings":
@@ -328,20 +359,83 @@
 					"file": "php/login.php",
 					"settings":
 					{
-						"buffer_size": 890,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								870,
-								870
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "loginHomepage/index.html",
+					"settings":
+					{
+						"buffer_size": 1504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								817
+							],
+							[
+								828,
+								831
+							],
+							[
+								916,
+								919
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
