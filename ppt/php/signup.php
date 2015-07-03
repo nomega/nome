@@ -29,7 +29,6 @@
 							echo "<script> function page_back() {history.go(-1)();} page_back() </script>";
 						}
 					}
-	
 			}
 	}
 
