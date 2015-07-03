@@ -30,7 +30,7 @@ session_start();
     <div class="container">
       <?php include 'navbar.php'; ?> 
     </div>
-    <div class="contatiner">
+    <div class="container">
         <h1>"하! 이거! 방탄 인덱스야! 햐햐햫햐햐햐햐햐햫!"</h1>
     </div>
   </body>

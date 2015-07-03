@@ -22,7 +22,7 @@
 	if(empty($CPW)){
 			echo "<script> alert('현재 비밀번호를 입력해주세요.'); </script>";
 			echo "<script> function page_back() {history.go(-1)();} page_back() </script>";
-	} else if(empty($EPW) && empty($NAME)){
+	} else if(empty($EPW) && empty($ENAME)){
 			echo "<script> alert('변경할 사항을 입력해주세요.'); </script>";
 			echo "<script> function page_back() {history.go(-1)();} page_back() </script>";
 	}
@@ -47,8 +47,8 @@
 		$sql_EditPW = "UPDATE member SET pw = '".$EPW."' WHERE id = '".$ID."'";
 		mysqli_query($conn, $sql_EditPW);
 	}
-	if(!empty($NAME)){
-		$sql_EditNAME = "UPDATE member SET name ='".$NAME."' WHERE id = '".$ID."'";
+	if(!empty($ENAME)){
+		$sql_EditNAME = "UPDATE member SET name ='".$ENAME."' WHERE id = '".$ID."'";
 		mysqli_query($conn, $sql_EditNAME);
 	}
 	/* 수정된 내용 세션에 반영하기 */
