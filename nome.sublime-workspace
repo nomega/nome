@@ -12,59 +12,7 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"file": "index.html",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "",
-			"file": "passwordfail.php",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "signin.php",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "success.php",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "",
-			"file": "php/login.php",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!-- MySQL Connecting -->\n<?\n	$conn = mysqli_connect('lcalhost','root','admin01');\n	mysqli_select_db($conn,'user');\n	$result=mysqli_query($conn,'SELECT*FROM user')\n	echo $result\n?>\n<!-- //MySQL Connecting -->\n\n<!DOCTYPE HTML>\n<html>\n	 <head>\n    <title>밥 얻어먹는 페이지</title>\n\n    <!-- Customizing CSS/js -->\n    <script type=\"text/javascript\" ></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/html5-doctor-reset-stylesheet.min.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\">\n    <!-- //Customizing CSS/js -->\n         \n\n    <!-- Common meta tag -->\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <!-- //Common meta tag -->\n  </head>\n    \n  <body>\n    <div class =\"wrapper\">\n    	<div class =\"subject\">\n    		<h1>그냥 로그인하는 홈페이지</h1>\n    	</div>\n        <div class=\"box-login\">\n        <form action=\"php/login.php\" method=\"post\">\n            <div class=\"box-input\">\n                <div class=\"box-idpw\">\n                    <label>로그인</label>\n                    <input type=\"text\" class=\"input-box\" name=\"user_id\" placeholder=\"아이디\">\n                </div>\n                <div class=\"box-idpw\">\n                    <label id=\"pw-label\">비밀번호</label>\n                    <input type=\"password\" id=\"pw-input-box\" class=\"input-box\" name=\"user_pw\" placeholder=\"암호\">\n                </div>\n            </div>\n            <input type=\"submit\" class=\"btn-login\" value =\"로그인하기\">\n        </form>\n        </div>\n    </div>\n  </body>\n</html>",
 			"file": "loginHomepage/index.html",
-			"file_size": 1625,
-			"file_write_time": 130802109081132135,
 			"settings":
 			{
 				"buffer_size": 1504,
@@ -72,18 +20,29 @@
 			}
 		},
 		{
-			"file": "/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"file": "css/index.css",
 			"settings":
 			{
-				"buffer_size": 291,
-				"line_ending": "Unix"
+				"buffer_size": 1268,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@font-face\n{ \n    font-family: 'Rix';\n    src: url('/fonts/RixHeadEB.eot?') format('eot'), url('/fonts/RixGoEB.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n\n\n.wrapper{\n    margin: 0 auto;\n    margin-top:90px;\n    width: 1026px;\n}\n\n.subject h1{\n    font-family: Rix;\n    font-size: 98.3px;       color: #4d6d5a;\n}\n\n.subject h2{\n    font-family: Rix;\n    font-size: 92.7px;       \n    color: #4d6d5a;\n}\n\n.box-login{\n    background-color: #46e786;\n    border-radius: 7px;\n    margin : 0 auto;\n    width: 537px;\n    margin-top: 23px;\n    height: 313px;\n\n}\n\n.box-login .box-input{\n    padding-top: 60px;\n    padding-left: 35px;\n    padding-right: 28px;\n    height: 144px;\n    \n}\n\n.box-login .box-input label{\n    font: 400 30px Rix;\n    color: #4d6d5a;\n    float: left;\n    height: 40px;\n    padding-top: 4px;\n}\n.box-login .box-input input{\n    width: 320px;\n    height: 40px;\n    float: right;\n\n}\n\n#pw-input-box{\n    margin-top: 23px;\n}\n\n#pw-label{\n    margin-top: 23px;\n}\n\n\n.btn-login{\n    height: 70px;\n    width: 473px;\n    margin-left: 34px;\n    background-color: #ffffff;\n    box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.75);\n    border-radius: 6px;\n    font-family: Rix;\n    font-size: 30px;\n    color: #4d6d5a;\n    font-weight: 400;\n}\n",
+			"file": "loginHomepage/css/index.css",
+			"file_size": 1379,
+			"file_write_time": 130804805793982194,
+			"settings":
+			{
+				"buffer_size": 1269,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 160.0,
+		"height": 35.0,
 		"selected_items":
 		[
 			[
@@ -151,7 +110,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 514.0
+		"width": 391.0
 	},
 	"console":
 	{
@@ -168,12 +127,24 @@
 	},
 	"file_history":
 	[
-		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/php/login.php",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/index.html",
-		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/css/style.css",
-		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/success.php",
-		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/README.md",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/passwordfail.php",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/signin.php",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/success.php",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/php/login.php",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/loginHomepage/index.html",
+		"/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/fonts/glyphicons-halflings-regular.ttf",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/ppt/php/edit.php",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/ppt/php/signin.php",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/ppt/php/signup.php",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/ppt/php/logout.php",
+		"/C/Users/home/AppData/Local/Temp/_AZTMP3_/PIE.js",
+		"/C/Users/home/AppData/Local/Temp/_AZTMP3_/PIE_uncompressed.js",
+		"/C/Users/home/AppData/Local/Temp/_AZTMP4_/PIE.js",
+		"/C/Users/home/AppData/Local/Temp/_AZTMP5_/PIE.js",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/css/style.css",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/README.md",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/fail.php",
 		"/C/Users/home/Desktop/11.php",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/js/custom/closebrowser.js",
@@ -187,9 +158,7 @@
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/login.php",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/phpinfo.php",
 		"/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/Default/Default.sublime-commands",
-		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/signin.php",
 		"/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/js/custom/pw_alert",
 		"/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/passwordfail",
@@ -214,6 +183,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"box-input",
 			"div",
 			"link",
 			"head",
@@ -239,150 +209,11 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "passwordfail.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "signin.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "success.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "php/login.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "loginHomepage/index.html",
 					"settings":
 					{
@@ -393,16 +224,8 @@
 						"selection":
 						[
 							[
-								814,
-								817
-							],
-							[
-								828,
-								831
-							],
-							[
-								916,
-								919
+								350,
+								350
 							]
 						],
 						"settings":
@@ -412,31 +235,60 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"buffer": 1,
+					"file": "css/index.css",
 					"settings":
 					{
-						"buffer_size": 291,
+						"buffer_size": 1268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								1268,
+								1268
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1207.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "loginHomepage/css/index.css",
+					"settings":
+					{
+						"buffer_size": 1269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -492,6 +344,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"in",
+				"css/index.css"
+			]
 		],
 		"width": 0.0
 	},

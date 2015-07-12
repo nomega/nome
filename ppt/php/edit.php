@@ -5,7 +5,7 @@
 	/* Mysql 서버 접속 */
 	$conn = mysqli_connect("localhost","root","admin01");
 	if(!$conn) {
-		$conn = mysqli_connect("localhost","root","admin01","3300");
+		$conn = mysqli_connect("localhost:3300","root","admin01");
 	}
 	/* DB 선택 */
 	mysqli_select_db($conn,"ppt");
