@@ -14,4 +14,8 @@
 <li><a href='/ppt/php/logout.php'>로그아웃</a></li>
 </ul>
 
-fucntion dropdown
+<?php
+    function dropdown(){
+        
+    }
+?>

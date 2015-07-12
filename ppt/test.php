@@ -23,8 +23,7 @@
 <body>
 
 <?php
-    session_start();
-    echo $_SESSION['ID'];
+    function test($array)
 ?>
 
 </body>
