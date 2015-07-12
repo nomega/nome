@@ -12,29 +12,18 @@
 	"buffers":
 	[
 		{
-			"file": "loginHomepage/index.html",
+			"file": "Differentation/css/creative.css",
 			"settings":
 			{
-				"buffer_size": 1504,
+				"buffer_size": 9960,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/index.css",
+			"file": "Differentation/index.html",
 			"settings":
 			{
-				"buffer_size": 1268,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "@font-face\n{ \n    font-family: 'Rix';\n    src: url('/fonts/RixHeadEB.eot?') format('eot'), url('/fonts/RixGoEB.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n\n\n.wrapper{\n    margin: 0 auto;\n    margin-top:90px;\n    width: 1026px;\n}\n\n.subject h1{\n    font-family: Rix;\n    font-size: 98.3px;       color: #4d6d5a;\n}\n\n.subject h2{\n    font-family: Rix;\n    font-size: 92.7px;       \n    color: #4d6d5a;\n}\n\n.box-login{\n    background-color: #46e786;\n    border-radius: 7px;\n    margin : 0 auto;\n    width: 537px;\n    margin-top: 23px;\n    height: 313px;\n\n}\n\n.box-login .box-input{\n    padding-top: 60px;\n    padding-left: 35px;\n    padding-right: 28px;\n    height: 144px;\n    \n}\n\n.box-login .box-input label{\n    font: 400 30px Rix;\n    color: #4d6d5a;\n    float: left;\n    height: 40px;\n    padding-top: 4px;\n}\n.box-login .box-input input{\n    width: 320px;\n    height: 40px;\n    float: right;\n\n}\n\n#pw-input-box{\n    margin-top: 23px;\n}\n\n#pw-label{\n    margin-top: 23px;\n}\n\n\n.btn-login{\n    height: 70px;\n    width: 473px;\n    margin-left: 34px;\n    background-color: #ffffff;\n    box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.75);\n    border-radius: 6px;\n    font-family: Rix;\n    font-size: 30px;\n    color: #4d6d5a;\n    font-weight: 400;\n}\n",
-			"file": "loginHomepage/css/index.css",
-			"file_size": 1379,
-			"file_write_time": 130804805793982194,
-			"settings":
-			{
-				"buffer_size": 1269,
+				"buffer_size": 10956,
 				"line_ending": "Windows"
 			}
 		}
@@ -127,12 +116,14 @@
 	},
 	"file_history":
 	[
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/loginHomepage/index.html",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/loginHomepage/css/index.css",
+		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/css/index.css",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/index.html",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/passwordfail.php",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/signin.php",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/success.php",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/php/login.php",
-		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/loginHomepage/index.html",
 		"/C/Users/home/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/fonts/glyphicons-halflings-regular.ttf",
 		"/C/Bitnami/wampstack-5.4.42-0/apache2/htdocs/ppt/php/edit.php",
@@ -183,6 +174,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bg-primary",
+			"about",
+			"carousel slide",
 			"box-input",
 			"div",
 			"link",
@@ -209,23 +203,57 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "loginHomepage/index.html",
+					"file": "Differentation/css/creative.css",
 					"settings":
 					{
-						"buffer_size": 1504,
+						"buffer_size": 9960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								350,
-								350
+								845,
+								845
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 617.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "Differentation/index.html",
+					"settings":
+					{
+						"buffer_size": 10956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4798,
+								4798
 							]
 						],
 						"settings":
@@ -235,63 +263,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/index.css",
-					"settings":
-					{
-						"buffer_size": 1268,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1268,
-								1268
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1207.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "loginHomepage/css/index.css",
-					"settings":
-					{
-						"buffer_size": 1269,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								272,
-								272
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2426.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -316,11 +288,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
